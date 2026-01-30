@@ -1,5 +1,42 @@
-#botones {
-  width: 50px;
+@font-face {
+  font-family:'Mario64';
+  src:url('../fonts/TypefaceMario64-yWA93.otf') 
+}
+
+body{
+  font-family:Mario64;
+}
+
+#titulo{
+  text-align:center;
+}
+
+#botones_windows {
+  background:#545458;
   margin-top: 10px;
-  border: 5px #000;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
+  height:30px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap:15px;
+}
+#boton_minimizar{
+  height:15px;
+  width:15px;
+}#boton_maximizar {
+  height:15px;
+  width:15px;
+}
+#boton_cerrar {
+  height:15px;
+  width:15px;
+ 
+}
+#ventana_completa{
+  width:95%;
+  margin:auto;
+  text-align:center;
 }
